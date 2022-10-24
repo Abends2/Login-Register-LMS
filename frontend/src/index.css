@@ -1,0 +1,16 @@
+html[data-theme='dark'] {
+	--main-bg-color: #0b0014;
+	--main-container-color: #FAFAC6;
+	--theme-btn-color: orange;
+	--input-color: #D6D6FF;
+	--border-color: #ff934f;
+}
+
+
+html[data-theme='light'] {
+	--main-bg-color: #ffffff;
+	--main-container-color: #ffffff;
+	--theme-btn-color: #ffffff;
+	--input-color: #CCD6DA;
+	--border-color: #ffffff;
+}
