@@ -31,7 +31,7 @@
   <li> $>: cd ./Login-Register-LMS/frontend</li>
   <li> $>: npm install react-router-dom, axios, format, boxicons</li>
   <li> Все зависимости можно найти в файле package.json в разделе "dependencies"</li>
-  <li> $>: npm start</li>
+  <li> $>: npm start - Запуск React</li>
 </ul>
 
 <h4 align="center">Back-end</h4>
@@ -41,6 +41,7 @@
   <li> $>: pipenv shell - создание окружения, должен в конце появиться <ПУТЬ> к созданному окружению</li>
   <li> $>: C:\Users\Username\.virtualenvs\Login-Register-LMS-df9fd99v\Scripts\activate> - активация виртуального окружения</li>
   <li> (virtual-env) $>: pipenv install flask flask-sqlalchemy psycopg2 python-dotenv flask-cors - загрузка библиотек в окружение</li>
+  <li> $>: python main.py --cert=cert.pem --key=key.pem - Запуск flask</li>
 </ul>
 
 <h3 align="center">Preview</h3>
