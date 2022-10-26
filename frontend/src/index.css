@@ -1,16 +1,41 @@
 html[data-theme='dark'] {
-	--main-bg-color: #0b0014;
-	--main-container-color: #FAFAC6;
+	/* Gradient border */
+	--border-btns-color1: #5216f7;
+	--border-btns-color2: #b600d8;
+	--border-btns-color3: #e615bd;
+
+	--main-bg-color: #000033;
+	--main-container-color: #010223;
 	--theme-btn-color: orange;
 	--input-color: #D6D6FF;
 	--border-color: #ff934f;
+
+	--text-color-home: #ffffff;
+	--phrase-color: #fff;
+
+	--br-color-cont: #ff0849;
+	--cl-text: #9ed010;
+	--color-link: #10ceda;
 }
 
 
 html[data-theme='light'] {
-	--main-bg-color: #ffffff;
+	/* Gradient border*/
+	--border-btns-color1: #E0E6E5;
+	--border-btns-color2: #E0E6E5;
+	--border-btns-color3: #E0E6E5;
+
+	--main-bg-color: #fff;
 	--main-container-color: #ffffff;
 	--theme-btn-color: #ffffff;
 	--input-color: #CCD6DA;
-	--border-color: #ffffff;
+	--border-color: #6600FF;
+
+	--text-color-home: #ffffff;
+	--phrase-color: #000;
+
+	--br-color-cont: #ffffff;
+	--cl-text: #000000;
+	--color-link: darkblue;
 }
+                              

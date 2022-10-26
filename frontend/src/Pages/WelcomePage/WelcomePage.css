@@ -1,0 +1,26 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: var(--main-bg-color);
+	transition: background-color 300ms linear;
+}
+
+
+.welcome-wrapper {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Trispace', sans-serif;
+	text-align: center;
+	font-size: 26px;
+}
+
+
+.welcome {
+	margin-bottom: 30px;
+	display: inline-block;
+	color: var(--cl-text);
+}
