@@ -40,7 +40,7 @@
   <li> $>: pip install pipenv - основная библиотка для виртуального окружения</li>
   <li> $>: pipenv shell - создание окружения, должен в конце появиться <ПУТЬ> к созданному окружению</li>
   <li> $>: C:\Users\Username\.virtualenvs\Login-Register-LMS-df9fd99v\Scripts\activate> - активация виртуального окружения</li>
-  <li> (virtual-env) $>: pipenv install flask flask-sqlalchemy psycopg2 python-dotenv flask-cors - загрузка библиотек в окружение</li>
+  <li> (virtual-env) $>: pipenv install flask flask-sqlalchemy psycopg2 python-dotenv flask-cors hashlib loguru- загрузка библиотек в окружение</li>
   <li> $>: python main.py --cert=cert.pem --key=key.pem - Запуск flask</li>
 </ul>
 
