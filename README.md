@@ -24,6 +24,8 @@
 
 <h3 align="center">How to start the project</h3>
 
+<img src="diagramm.png" alt=""/>
+
 #------------Creating-Frontend------------
 1) pip install pipenv
 
