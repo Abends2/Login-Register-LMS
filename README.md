@@ -3,15 +3,17 @@
 
 <h3 align="center">Task descripton</h3>
 
+<p align="justify">Нашей командой была выбрана задача №1: Формы логина и регистрации.</p>
 <p align="justify">Метод /api/register: На вход принимает username, password, mail, phone, name, surname. Поля mail и phone опциональны. Производится проверка данных - если пользователь с таким mail уже существует - возвращать ошибку 200 "mail_not_available". После успешной регистрации создаются ресурсы UsersLogin, userData. В ресурс UsersLogin записываются username, password, mail. В ресурс userData записывается FirstName, LastName.</p>
 <p align="justify">Метод /api/login: На вход принимается username, password, grant_type (для авторизации по паролю стоит password). В результате успешной авторизации пользователю будут отправляться два токена: access_token – токен авторизации, используемый для входа и refresh_token – используемый для обновления токена авторизации. Оба токена записываются в локальное хранилище и хранятся там.
 </p>
 
-<h3 align="center">Additional functionality</h3>
+<p align="center"><img src="diagramm.png" alt=""/></p>
+
+<h3 align="center">Features</h3>
 <ul>
-  <li>Особенность 1</li>
-  <li>Особенность 2</li>
-  <li>Особенность 3</li>
+  <li>Дизайнерские решения (наличие переключения тем, цветовое оформление)</li>
+  <li>Хэширование (+соль) паролей</li>
 </ul>
 
 <h3 align="center">Tools</h3>
@@ -24,27 +26,25 @@
 
 <h3 align="center">How to start the project</h3>
 
-<img src="diagramm.png" alt=""/>
+<h4 align="center">Front-end</h4>
+<ul>
+  <li> $>: cd ./Login-Register-LMS/frontend</li>
+  <li> $>: npm install react-router-dom, axios, format, boxicons</li>
+  <li> Все зависимости можно найти в файле package.json в разделе "dependencies"</li>
+  <li> $>: npm start</li>
+</ul>
 
-#------------Creating-Frontend------------
-1) pip install pipenv
+<h4 align="center">Back-end</h4>
+<ul>
+  <li> $>: cd ./Login-Register-LMS/backend</li>
+  <li> $>: pip install pipenv - основная библиотка для виртуального окружения</li>
+  <li> $>: pipenv shell - создание окружения, должен в конце появиться <ПУТЬ> к созданному окружению</li>
+  <li> $>: C:\Users\Username\.virtualenvs\Login-Register-LMS-df9fd99v\Scripts\activate> - активация виртуального окружения</li>
+  <li> (virtual-env) $>: pipenv install flask flask-sqlalchemy psycopg2 python-dotenv flask-cors - загрузка библиотек в окружение</li>
+</ul>
 
-2) pipenv shell
-(Virtualenv location: C:\Users\Abends\.virtualenvs\Login-Register-LMS-lo8P3mGi)
-
-3)C:\Users\Abends\.virtualenvs\Login-Register-LMS-lo8P3mGi\Scripts\activate
-
-4) npx create-react-app frontend
-
-5) cd frontend
-
-6) To start App: npm start
-
-#------------Creating-Backend-----------
-
-1) (venv)> pipenv install flask flask-sqlalchemy psycopg2 python-dotenv flask-cors
-
-
-
-npm install boxicons --save
-npm install react-router-dom
+<h3 align="center">Preview</h3>
+<p align="center"><img src="home-page-dark.png" alt=""/></p>
+<p align="center"><img src="home-page-white.png" alt=""/></p>
+<p align="center"><img src="login-form-dark.png" alt=""/></p>
+<p align="center"><img src="login-form-white.png" alt=""/></p>
